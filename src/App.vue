@@ -1,14 +1,15 @@
 <template>
   <div id="app">
-    <Home />
+    <!-- <Home /> -->
+    <router-view />
     <AboutMe />
     <Projects />
-    <Contact />
+    <Contact />    
   </div>
 </template>
 
 <script>
-import Home from "./components/Home";
+// import Home from "./components/Home";
 import AboutMe from "./components/AboutMe";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
@@ -16,7 +17,7 @@ import Contact from "./components/Contact";
 export default {
   name: "app",
   components: {
-    Home,
+    // Home,
     AboutMe,
     Projects,
     Contact,
