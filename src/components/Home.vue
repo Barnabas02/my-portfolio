@@ -17,7 +17,7 @@
             </ul>
           </div>
           <div class="left-column">
-            <img id="profile_pic" src="images/profile.jpg" />
+            <img id="profile_pic" src="../assets/img/profile.jpg" />
             <h5 style="text-align: center; line-height: 0">
               Personalize Theme
             </h5>

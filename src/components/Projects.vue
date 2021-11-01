@@ -6,7 +6,7 @@
       <div class="post-wrapper">
         <div>
           <div class="post">
-            <img class="thumbnail" src="images/dash.jpg" />
+            <img class="thumbnail" src="../assets/img/dash.jpg" />
             <div class="post-preview">
               <h6 class="post-title">Laboratory Management System</h6>
               <p class="post-intro">
@@ -20,7 +20,7 @@
 
         <div>
           <div class="post">
-            <img class="thumbnail" src="images/ecom.jpg" />
+            <img class="thumbnail" src="../assets/img/ecom.jpg" />
             <div class="post-preview">
               <h6 class="post-title">Online Store - CoursePost Title</h6>
               <p class="post-intro">
@@ -34,7 +34,7 @@
 
         <div>
           <div class="post">
-            <img class="thumbnail" src="images/membership site.jpg" />
+            <img class="thumbnail" src="../assets/img/membership site.jpg" />
             <div class="post-preview">
               <h6 class="post-title">Membership Website</h6>
               <p class="post-intro">

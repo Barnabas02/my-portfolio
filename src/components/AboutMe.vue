@@ -44,7 +44,7 @@
         </div>
 
         <div class="social-links">
-          <img id="social_img" src="images/follow.jpg" />
+          <img id="social_img" src="../assets/img/follow.jpg" />
           <h3>Find me on Github & Linkedin</h3>
 
           <a target="_blank" href="https://www.linkedin.com/in/barnabas-tinarwo"
