@@ -39,7 +39,7 @@
                 <div id="corner-top-left" class="corner"></div>
                 <div id="corner-top-right" class="corner"></div>
                 <h3>What I Do</h3>
-                <p>Solve Computer Engineering Problems</p>
+                <p>I design and implement software solutions</p>
                 <div id="corner-bottom-left" class="corner"></div>
                 <div id="corner-bottom-right" class="corner"></div>
               </div>

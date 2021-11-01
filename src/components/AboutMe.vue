@@ -6,13 +6,10 @@
           <h4>More about me</h4>
 
           <p>
-            I build new projects just to tickle my brain and love teaching
-            others how they're made.
-          </p>
-
-          <p>
-            While I keep busy teaching courses, I still take interviews in
-            search of a great team & projects that interest me.
+            I have worked on various projects using multiple programming
+            languages including C, C++, Java, Python and MATLAB among others. I
+            am passionate about technology and willing to solve any task
+            presented to me.
           </p>
 
           <hr />
@@ -20,8 +17,11 @@
           <h4>TOP EXPERTISE</h4>
 
           <p>
-            Fullstack developer with primary focus on Django + React:
-            <a target="_blank" href="cv-2021.pdf">Download Resume</a>
+            AWS Certified Cloud practitioner with Fullstack developer experience
+            in multiple Programming Languages:
+            <a target="_blank" href="Barnabas-Tinarwo-CV.pdf"
+              >Download Resume</a
+            >
           </p>
 
           <div id="skills">
@@ -45,14 +45,20 @@
 
         <div class="social-links">
           <img id="social_img" src="images/follow.jpg" />
-          <h3>Find me on Linkedin & Facebook</h3>
+          <h3>Find me on Github & Linkedin</h3>
 
           <a target="_blank" href="https://www.linkedin.com/in/barnabas-tinarwo"
-            >Linkedin: Barnabas Tinarwo</a
+            ><img
+            class="contact-icon"
+            src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg"
+          /> Barnabas Tinarwo</a
           >
           <br />
-          <a target="_blank" href="https://www.facebook.com/barnabast2"
-            >Facebook: Barnabas Tinarwo</a
+          <a target="_blank" href="https://github.com/Barnabas02"
+            ><img
+              class="contact-icon"
+              src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg"
+            /> Barnabas02</a
           >
         </div>
       </div>
@@ -66,4 +72,8 @@ export default {
 };
 </script>
 
-<style></style>
+<style scoped>
+.contact-icon {
+  height: 15px;
+}
+</style>
