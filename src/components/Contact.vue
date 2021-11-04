@@ -1,13 +1,11 @@
 <template>
-  <div class="contact">
+  <div id="contact">
     <section class="s2">
       <div class="main-container">
         <a href=""></a>
         <h3 style="text-align: center">Get In Touch</h3>
 
         <form ref="form" id="contact-form" @submit.prevent="sendEmail">
-          <!-- <a name="contact"></a> -->
-
           <label>Name</label>
           <input class="input-field" type="text" name="sender" />
 
