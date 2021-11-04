@@ -9,7 +9,7 @@
           <a name="contact"></a>
 
           <label>Name</label>
-          <input class="input-field" type="text" name="name" />
+          <input class="input-field" type="text" name="sender" />
 
           <label>Subject</label>
           <input class="input-field" type="text" name="subject" />
@@ -30,6 +30,16 @@
 <script>
 export default {
   name: "Contact",
+  methods: {
+    sendEmail() {
+      emailjs.sendForm('service_ltpiqkv', 'template_f67hrz9', this.$refs.form, 'user_9JZ1CCmPE0MfzHCdZUSgE')
+        .then((result) => {
+            console.log('SUCCESS!', result.text);
+        }, (error) => {
+            console.log('FAILED...', error.text);
+        });
+    }
+  }
 };
 </script>
 
