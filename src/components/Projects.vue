@@ -6,28 +6,28 @@
       <div class="post-wrapper">
         <div>
           <div class="post">
-            <img class="thumbnail" src="../assets/img/dash.jpg" />
+            <img class="thumbnail" src="../assets/img/ECCi Website.jpg" />
             <div class="post-preview">
-              <h6 class="post-title">Laboratory Management System</h6>
+              <h6 class="post-title">Exalted Christ Church International</h6>
               <p class="post-intro">
-                Designed built & mantained a the lab managment system for FOI
-                Laboratories
+                Designed, Implemented and mantained a 
+                Church Website using Wordpress
               </p>
-              <a href="post.html">Read More</a>
+              <a href="https://www.exaltedchristchurch.com/">Read More</a>
             </div>
           </div>
         </div>
 
         <div>
           <div class="post">
-            <img class="thumbnail" src="../assets/img/ecom.jpg" />
+            <img class="thumbnail" src="../assets/img/weather.jpg" />
             <div class="post-preview">
-              <h6 class="post-title">Online Store - CoursePost Title</h6>
+              <h6 class="post-title">Umkhathi Weather App</h6>
               <p class="post-intro">
-                Online store with paypal payments intergration and guest user
-                shopping
+                Designed and implemented a simple weather App using Vue and 
+                an openweathermap API
               </p>
-              <a href="post.html">Read More</a>
+              <a href="https://umkhathi.netlify.app/">Read More</a>
             </div>
           </div>
         </div>
