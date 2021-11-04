@@ -5,8 +5,8 @@
         <a href=""></a>
         <h3 style="text-align: center">Get In Touch</h3>
 
-        <form id="contact-form">
-          <a name="contact"></a>
+        <form ref="form" id="contact-form" @submit.prevent="sendEmail">
+          <!-- <a name="contact"></a> -->
 
           <label>Name</label>
           <input class="input-field" type="text" name="sender" />
@@ -28,6 +28,7 @@
 </template>
 
 <script>
+import emailjs from "emailjs-com";
 export default {
   name: "Contact",
   methods: {
@@ -38,6 +39,7 @@ export default {
         }, (error) => {
             console.log('FAILED...', error.text);
         });
+      this.$refs.form.reset(); 
     }
   }
 };
