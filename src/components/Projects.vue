@@ -34,13 +34,13 @@
 
         <div>
           <div class="post">
-            <img class="thumbnail" src="../assets/img/membership site.jpg" />
+            <img class="thumbnail" src="../assets/img/games-library.jpg" />
             <div class="post-preview">
-              <h6 class="post-title">Membership Website</h6>
+              <h6 class="post-title">Game Library App</h6>
               <p class="post-intro">
-                Modulized guide for online courses with step by step intructions
+                Designed and implemented a Game Library app using a Vue Frontend and Flask backend
               </p>
-              <a href="post.html">Read More</a>
+              <a href="https://github.com/Barnabas02/Games-Library">Read More</a>
             </div>
           </div>
         </div>
