@@ -1,36 +1,36 @@
 <template>
-  <section class="s2">
-		<div class="main-container">
-			<a href=""></a>
-			<h3 style="text-align: center;">Get In Touch</h3>
+  <div class="contact">
+    <section class="s2">
+      <div class="main-container">
+        <a href=""></a>
+        <h3 style="text-align: center">Get In Touch</h3>
 
-			<form id="contact-form">
-				<a name="contact"></a>
+        <form id="contact-form">
+          <a name="contact"></a>
 
-				<label>Name</label>
-				<input class="input-field" type="text" name="name">
+          <label>Name</label>
+          <input class="input-field" type="text" name="name" />
 
-				<label>Subject</label>
-				<input class="input-field" type="text" name="subject">
+          <label>Subject</label>
+          <input class="input-field" type="text" name="subject" />
 
-				<label>Email</label>
-				<input class="input-field" type="text" name="email">
+          <label>Email</label>
+          <input class="input-field" type="text" name="email" />
 
-				<label>Message</label>
-				<textarea class="input-field" name="message"></textarea>
+          <label>Message</label>
+          <textarea class="input-field" name="message"></textarea>
 
-				<input id="submit-btn" type="submit" value="Send">
-			</form>			
-		</div>
-	</section>
+          <input id="submit-btn" type="submit" value="Send" />
+        </form>
+      </div>
+    </section>
+  </div>
 </template>
 
 <script>
 export default {
-    name: "Contact"
-}
+  name: "Contact",
+};
 </script>
 
-<style>
-
-</style>
+<style></style>

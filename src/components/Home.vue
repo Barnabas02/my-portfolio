@@ -13,7 +13,9 @@
               <div id="dot-green" class="browser-dot"></div>
             </div>
             <ul id="navigation">
-              <li><a href="#">Contact</a></li>
+              <li>
+                <a href="#contact" @click="scrollTo('#contact')">Contact</a>
+              </li>
             </ul>
           </div>
           <div class="left-column">
@@ -54,6 +56,13 @@
 <script>
 export default {
   name: "Home",
+  methods: {
+    scrollTo(selector) {
+      document.querySelector(selector).scrollIntoView({
+        behavior: "smooth",
+      });
+    },
+  },
 };
 </script>
 

@@ -45,21 +45,18 @@
 
         <div class="social-links">
           <img id="social_img" src="../assets/img/follow.jpg" />
-          <h3>Find me on Github & Linkedin</h3>
+          <h3>Follow me on Social Media</h3>
 
-          <a target="_blank" href="https://www.linkedin.com/in/barnabas-tinarwo"
-            ><img
-            class="contact-icon"
-            src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg"
-          /> Barnabas Tinarwo</a
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/barnabas-tinarwo"
           >
-          <br />
+            <i class="fab fa-linkedin-in"></i
+          ></a>
+          <br>
           <a target="_blank" href="https://github.com/Barnabas02"
-            ><img
-              class="contact-icon"
-              src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg"
-            /> Barnabas02</a
-          >
+            ><i class="fab fa-github"></i
+          ></a>
         </div>
       </div>
     </div>
@@ -75,5 +72,8 @@ export default {
 <style scoped>
 .contact-icon {
   height: 15px;
+}
+.social-links a{
+  font-size: 30px;
 }
 </style>
