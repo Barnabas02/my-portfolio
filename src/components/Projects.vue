@@ -13,7 +13,7 @@
                 Designed, Implemented and mantained a 
                 Church Website using Wordpress
               </p>
-              <a href="https://www.exaltedchristchurch.com/">Read More</a>
+              <a href="https://www.exaltedchristchurch.com/">View Project</a>
             </div>
           </div>
         </div>
@@ -27,7 +27,7 @@
                 Designed and implemented a simple weather App using Vue and 
                 an openweathermap API
               </p>
-              <a href="https://umkhathi.netlify.app/">Read More</a>
+              <a href="https://umkhathi.netlify.app/">View Project</a>
             </div>
           </div>
         </div>
@@ -40,10 +40,24 @@
               <p class="post-intro">
                 Designed and implemented a Game Library app using a Vue Frontend and Flask backend
               </p>
-              <a href="https://github.com/Barnabas02/Games-Library">Read More</a>
+              <a href="https://github.com/Barnabas02/Games-Library">View Project</a>
             </div>
           </div>
         </div>
+
+        <div>
+          <div class="post">
+            <img class="thumbnail" src="../assets/img/k2013Logistic.jpg" />
+            <div class="post-preview">
+              <h6 class="post-title">k2013 Logistic</h6>
+              <p class="post-intro">
+                Designed and implemented a wordpress Website for a Logistics Company
+              </p>
+              <a href="https://k2013logistic.co.za">View Project</a>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
