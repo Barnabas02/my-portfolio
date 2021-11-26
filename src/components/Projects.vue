@@ -1,5 +1,5 @@
 <template>
-  <section class="s1">
+  <section class="projects-section">
     <div class="main-container">
       <h3 style="text-align: center">Some of my past projects</h3>
 
