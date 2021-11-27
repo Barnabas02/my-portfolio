@@ -58,6 +58,19 @@
           </div>
         </div>
 
+         <div>
+          <div class="post">
+            <img class="thumbnail" src="../assets/img/chara-the-journey.jpg" />
+            <div class="post-preview">
+              <h6 class="post-title">Chara the Journey</h6>
+              <p class="post-intro">
+                Designed and Developed a blog website using 11ty, HTML, CSS and JavaScript
+              </p>
+              <a href="https://www.charathejourney.com">View Project</a>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>

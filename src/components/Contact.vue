@@ -17,7 +17,7 @@
           <label>Message</label>
           <textarea class="input-field" name="message"></textarea>
 
-          <input id="submit-btn" type="submit" value="Send" />
+          <input id="submit-btn" type="submit" value="SEND" />
         </form>
       </div>
     </section>

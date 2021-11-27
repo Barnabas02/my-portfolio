@@ -41,7 +41,7 @@
                 <div id="corner-top-left" class="corner"></div>
                 <div id="corner-top-right" class="corner"></div>
                 <h3>What I Do</h3>
-                <p>I design and implement software solutions</p>
+                <p>I design and build beautiful websites for businesses around the globe. If you need a powerful website, <a href="#contact" @click="scrollTo('#contact')">Contact Me</a>. </p>
                 <div id="corner-bottom-left" class="corner"></div>
                 <div id="corner-bottom-right" class="corner"></div>
               </div>

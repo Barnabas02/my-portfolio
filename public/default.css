@@ -8,7 +8,7 @@
 	--secondaryText:  #4b5156;
 
 	--themeDotBorder:  #24292e;
-	--previewBG:  rgb(254, 249, 243, 0.8);
+	--previewBG:  rgb(209, 205, 201, 0.8);
 	--previewShadow:  #f0ead6;
 
 	--buttonColor: black;
@@ -277,6 +277,8 @@ h6 { font-size: 16px;}
 
 #social_img{
 	width: 100%	;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .social-links{
@@ -304,7 +306,7 @@ h6 { font-size: 16px;}
 	display: block;
 	width: 100%;
 	height:180px;
-	object-fit: cover;
+	object-fit: fill;
 }
 
 .post-preview{
@@ -359,6 +361,7 @@ h6 { font-size: 16px;}
 	color: #fff;
 	background-color: var(--buttonColor);
 	border:none;
+	font-size: 18px;
 }
 
 @media screen and (max-width:  1200px){
