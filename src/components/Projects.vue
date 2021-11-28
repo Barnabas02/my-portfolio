@@ -10,8 +10,8 @@
             <div class="post-preview">
               <h6 class="post-title">Exalted Christ Church International</h6>
               <p class="post-intro">
-                Designed, Implemented and mantained a 
-                Church Website using Wordpress
+                Designed, Implemented and mantained a Church Website using
+                Wordpress
               </p>
               <a href="https://www.exaltedchristchurch.com/">View Project</a>
             </div>
@@ -24,8 +24,8 @@
             <div class="post-preview">
               <h6 class="post-title">Umkhathi Weather App</h6>
               <p class="post-intro">
-                Designed and implemented a simple weather App using Vue and 
-                an openweathermap API
+                Designed and implemented a simple weather App using Vue and an
+                openweathermap API
               </p>
               <a href="https://umkhathi.netlify.app/">View Project</a>
             </div>
@@ -38,9 +38,12 @@
             <div class="post-preview">
               <h6 class="post-title">Game Library App</h6>
               <p class="post-intro">
-                Designed and implemented a Game Library app using a Vue Frontend and Flask backend
+                Designed and implemented a Game Library app using a Vue Frontend
+                and Flask backend
               </p>
-              <a href="https://github.com/Barnabas02/Games-Library">View Project</a>
+              <a href="https://github.com/Barnabas02/Games-Library"
+                >View Project</a
+              >
             </div>
           </div>
         </div>
@@ -51,26 +54,47 @@
             <div class="post-preview">
               <h6 class="post-title">k2013 Logistic</h6>
               <p class="post-intro">
-                Designed and implemented a wordpress Website for a Logistics Company
+                Designed and implemented a wordpress Website for a Logistics
+                Company
               </p>
               <a href="https://k2013logistic.co.za">View Project</a>
             </div>
           </div>
         </div>
 
-         <div>
+        <div>
+          <div class="post">
+            <img
+              class="thumbnail"
+              src="../assets/img/ecci-launcher-extension.jpg"
+              style="border-bottom: .5px solid #ddd;"
+            />
+            <div class="post-preview">
+              <h6 class="post-title">ECCi Launcher Chrome Extension</h6>
+              <p class="post-intro">
+                Designed and Developed a Chrome Extension for easy access to
+                Exalted Christ Church International media links.
+              </p>
+              <a href="https://github.com/Barnabas02/ecci-launcher"
+                >View Project</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div>
           <div class="post">
             <img class="thumbnail" src="../assets/img/chara-the-journey.jpg" />
             <div class="post-preview">
               <h6 class="post-title">Chara the Journey</h6>
               <p class="post-intro">
-                Designed and Developed a blog website using 11ty, HTML, CSS and JavaScript
+                Designed and Developed a blog website using 11ty, HTML, CSS and
+                JavaScript
               </p>
               <a href="https://www.charathejourney.com">View Project</a>
             </div>
           </div>
         </div>
-
       </div>
     </div>
   </section>
