@@ -72,7 +72,7 @@
             <div class="post-preview">
               <h6 class="post-title">ECCi Launcher Chrome Extension</h6>
               <p class="post-intro">
-                Designed and Developed a Chrome Extension for easy access to
+                Developed a Chrome Extension for easy access to
                 Exalted Christ Church International media links.
               </p>
               <a href="https://github.com/Barnabas02/ecci-launcher"
