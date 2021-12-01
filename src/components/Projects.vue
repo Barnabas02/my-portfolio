@@ -4,94 +4,15 @@
       <h3 style="text-align: center">Some of my past projects</h3>
 
       <div class="post-wrapper">
-        <div>
+        <div v-for="(project,index) in projects" :key="index">
           <div class="post">
-            <img class="thumbnail" src="../assets/img/ECCi Website.jpg" />
+            <img class="thumbnail" :src="project.image" />
             <div class="post-preview">
-              <h6 class="post-title">Exalted Christ Church International</h6>
+              <h6 class="post-title">{{ project.title }}</h6>
               <p class="post-intro">
-                Designed, Implemented and mantained a Church Website using
-                Wordpress
+                {{ project.description }}
               </p>
-              <a href="https://www.exaltedchristchurch.com/">View Project</a>
-            </div>
-          </div>
-        </div>
-
-        <div>
-          <div class="post">
-            <img class="thumbnail" src="../assets/img/weather.jpg" />
-            <div class="post-preview">
-              <h6 class="post-title">Umkhathi Weather App</h6>
-              <p class="post-intro">
-                Designed and implemented a simple weather App using Vue and an
-                openweathermap API
-              </p>
-              <a href="https://umkhathi.netlify.app/">View Project</a>
-            </div>
-          </div>
-        </div>
-
-        <div>
-          <div class="post">
-            <img class="thumbnail" src="../assets/img/games-library.jpg" />
-            <div class="post-preview">
-              <h6 class="post-title">Game Library App</h6>
-              <p class="post-intro">
-                Designed and implemented a Game Library app using a Vue Frontend
-                and Flask backend
-              </p>
-              <a href="https://github.com/Barnabas02/Games-Library"
-                >View Project</a
-              >
-            </div>
-          </div>
-        </div>
-
-        <div>
-          <div class="post">
-            <img class="thumbnail" src="../assets/img/k2013Logistic.jpg" />
-            <div class="post-preview">
-              <h6 class="post-title">k2013 Logistic</h6>
-              <p class="post-intro">
-                Designed and implemented a wordpress Website for a Logistics
-                Company
-              </p>
-              <a href="https://k2013logistic.co.za">View Project</a>
-            </div>
-          </div>
-        </div>
-
-        <div>
-          <div class="post">
-            <img
-              class="thumbnail"
-              src="../assets/img/ecci-launcher-extension.jpg"
-              style="border-bottom: .5px solid #ddd;"
-            />
-            <div class="post-preview">
-              <h6 class="post-title">ECCi Launcher Chrome Extension</h6>
-              <p class="post-intro">
-                Developed a Chrome Extension for easy access to
-                Exalted Christ Church International media links.
-              </p>
-              <a href="https://github.com/Barnabas02/ecci-launcher"
-                >View Project</a
-              >
-            </div>
-          </div>
-        </div>
-
-        <div>
-          <div class="post">
-            <img class="thumbnail" src="../assets/img/chara-the-journey.jpg" />
-            <div class="post-preview">
-              <h6 class="post-title">Chara the Journey</h6>
-              <p class="post-intro">
-                Designed and Developed a blog website using 11ty, HTML, CSS and
-                JavaScript
-              </p>
-              <a href="https://www.charathejourney.com">View Project</a>
+              <a :href="project.link">View Project</a>
             </div>
           </div>
         </div>
@@ -103,6 +24,54 @@
 <script>
 export default {
   name: "Projects",
+  data() {
+    return {
+      projects: [
+        {
+          title: "Exalted Christ Church International",
+          description:
+            "Designed, Implemented and mantained a Church Website using Wordpress",
+          image: require("../assets/img/ECCi Website.jpg"),
+          link: "https://www.exaltedchristchurch.com/",
+        },
+        {
+          title: "Umkhathi Weather App",
+          description:
+            "Designed and implemented a simple weather App using Vue and an openweathermap API",
+          image: require("../assets/img/weather.jpg"),
+          link: "https://umkhathi.netlify.app/",
+        },
+        {
+          title: "Game Library App",
+          description:
+            "Designed and implemented a Game Library app using a Vue Frontend and Flask backend",
+          image: require("../assets/img/games-library.jpg"),
+          link: "https://github.com/Barnabas02/Games-Library",
+        },
+        {
+          title: "k2013 Logistic",
+          description:
+            "Designed and implemented a wordpress Website for a Logistics Company",
+          image: require("../assets/img/k2013Logistic.jpg"),
+          link: "https://k2013logistic.co.za",
+        },
+        {
+          title: "Chara the Journey",
+          description:
+            "Designed and Developed a blog website using 11ty, HTML, CSS and JavaScript",
+          image: require("../assets/img/chara-the-journey.jpg"),
+          link: "https://www.charathejourney.com",
+        },
+        {
+          title: "ECCi Launcher Chrome Extension",
+          description:
+            " Developed a Chrome Extension for easy access to Exalted Christ Church International media links.",
+          image: require("../assets/img/ecci-launcher-extension.jpg"),
+          link: "https://github.com/Barnabas02/ecci-launcher",
+        },
+      ],
+    };
+  },
 };
 </script>
 
