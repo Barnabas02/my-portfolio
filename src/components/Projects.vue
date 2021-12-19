@@ -4,7 +4,7 @@
       <h3 style="text-align: center">Some of my past projects</h3>
 
       <div class="post-wrapper">
-        <div v-for="(project,index) in projects" :key="index">
+        <div v-for="(project, index) in projects" :key="index">
           <div class="post">
             <img class="thumbnail" :src="project.image" />
             <div class="post-preview">
@@ -35,6 +35,27 @@ export default {
           link: "https://www.exaltedchristchurch.com/",
         },
         {
+          title: "k2013 Logistic",
+          description:
+            "Designed and implemented a wordpress Website for a Logistics Company",
+          image: require("../assets/img/k2013Logistic.jpg"),
+          link: "https://k2013logistic.co.za",
+        },
+        {
+          title: "Little Billy Goat",
+          description:
+            "Designed and Developed a wordpress website for a daycare and aftercare center based in Durban",
+          image: require("../assets/img/little-billy-goat.jpg"),
+          link: "https://www.littlebillygoat.co.za",
+        },
+        {
+          title: "Chara the Journey",
+          description:
+            "Designed and Developed a blog website using 11ty, HTML, CSS and JavaScript",
+          image: require("../assets/img/chara-the-journey.jpg"),
+          link: "https://www.charathejourney.com",
+        },
+        {
           title: "Umkhathi Weather App",
           description:
             "Designed and implemented a simple weather App using Vue and an openweathermap API",
@@ -48,20 +69,7 @@ export default {
           image: require("../assets/img/games-library.jpg"),
           link: "https://github.com/Barnabas02/Games-Library",
         },
-        {
-          title: "k2013 Logistic",
-          description:
-            "Designed and implemented a wordpress Website for a Logistics Company",
-          image: require("../assets/img/k2013Logistic.jpg"),
-          link: "https://k2013logistic.co.za",
-        },
-        {
-          title: "Chara the Journey",
-          description:
-            "Designed and Developed a blog website using 11ty, HTML, CSS and JavaScript",
-          image: require("../assets/img/chara-the-journey.jpg"),
-          link: "https://www.charathejourney.com",
-        },
+
         {
           title: "ECCi Launcher Chrome Extension",
           description:
