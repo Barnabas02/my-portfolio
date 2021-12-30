@@ -48,6 +48,13 @@ export default {
           image: require("../assets/img/little-billy-goat.jpg"),
           link: "https://www.littlebillygoat.co.za",
         },
+          {
+          title: "Slay Like Liz",
+          description:
+            "Designed and Developed an e-commerce website for a cosmetics store based in Cape Town",
+          image: require("../assets/img/slay-like-liz.jpg"),
+          link: "https://www.slaylikeliz.co.za",
+        },
         {
           title: "Chara the Journey",
           description:
@@ -73,7 +80,7 @@ export default {
         {
           title: "ECCi Launcher Chrome Extension",
           description:
-            " Developed a Chrome Extension for easy access to Exalted Christ Church International media links.",
+            " Developed a Chrome Extension for easy accesexis to Exalted Christ Church International media links.",
           image: require("../assets/img/ecci-launcher-extension.jpg"),
           link: "https://github.com/Barnabas02/ecci-launcher",
         },
