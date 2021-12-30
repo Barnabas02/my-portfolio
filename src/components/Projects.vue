@@ -80,7 +80,7 @@ export default {
         {
           title: "ECCi Launcher Chrome Extension",
           description:
-            " Developed a Chrome Extension for easy accesexis to Exalted Christ Church International media links.",
+            " Developed a Chrome Extension for easy access to Exalted Christ Church International media links.",
           image: require("../assets/img/ecci-launcher-extension.jpg"),
           link: "https://github.com/Barnabas02/ecci-launcher",
         },
